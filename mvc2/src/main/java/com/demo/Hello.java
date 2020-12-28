@@ -10,6 +10,7 @@ public class Hello {
 	public ModelAndView hello(ModelAndView mv) {
 		mv.setViewName("page");
 		mv.addObject("data", "spring mvc hello world");
+		System.out.println("hello world app");
 		return mv;
 	}
 
